@@ -80,4 +80,8 @@ Editor.builtinPlugins = [
 	TextTransformation
 ];
 
+Editor.defaultConfig = {
+	viewportTopOffset: 150,
+};
+
 export default Editor;
