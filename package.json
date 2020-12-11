@@ -32,6 +32,7 @@
     "@ckeditor/ckeditor5-table": "^23.1.0",
     "@ckeditor/ckeditor5-theme-lark": "^23.1.0",
     "@ckeditor/ckeditor5-typing": "^23.1.0",
+    "@ckeditor/ckeditor5-ui": "^24.0.0",
     "@wiris/mathtype-ckeditor5": "^7.24.1",
     "css-loader": "^5.0.0",
     "postcss": "^8.1.4",
@@ -44,8 +45,5 @@
   },
   "scripts": {
     "build": "webpack --mode production"
-  },
-  "dependencies": {
-    "@ckeditor/ckeditor5-ui": "^24.0.0"
   }
 }
