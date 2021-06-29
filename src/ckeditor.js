@@ -29,7 +29,6 @@ import List from '@ckeditor/ckeditor5-list/src/list.js';
 import ListStyle from '@ckeditor/ckeditor5-list/src/liststyle.js';
 import Markdown from '@ckeditor/ckeditor5-markdown-gfm/src/markdown.js';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
-import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice.js';
 import SpecialCharacters from '@ckeditor/ckeditor5-special-characters/src/specialcharacters.js';
 import SpecialCharactersCurrency from '@ckeditor/ckeditor5-special-characters/src/specialcharacterscurrency.js';
 import SpecialCharactersEssentials from '@ckeditor/ckeditor5-special-characters/src/specialcharactersessentials.js';
@@ -42,7 +41,6 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
 
 class Editor extends ClassicEditor {}
-
 // Plugins to include in the build.
 Editor.builtinPlugins = [
 	Alignment,
@@ -71,7 +69,6 @@ Editor.builtinPlugins = [
 	ListStyle,
 	Markdown,
 	Paragraph,
-	PasteFromOffice,
 	SpecialCharacters,
 	SpecialCharactersCurrency,
 	SpecialCharactersEssentials,
